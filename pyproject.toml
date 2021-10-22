@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tobem-app"
+version = "0.1.0"
+description = ""
+authors = ["dunossauro <mendesxeduardo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Kivy = "^2.0.0"
+kivymd = {git = "https://github.com/kivymd/KivyMD.git", rev = "master"}
+"kivymd-extensions.sweetalert" = "^0.1.5"
+
+[tool.poetry.dev-dependencies]
+watchdog = "^2.1.6"
+Cython = "^0.29.24"
+buildozer = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
